@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage
+END
+MKAnnotationView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/MKAnnotationView+WebCache.h
+END
+SDImageCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDImageCache.h
+END
+SDWebImageDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageDecoder.h
+END
+MKAnnotationView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/MKAnnotationView+WebCache.m
+END
+SDImageCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDImageCache.m
+END
+SDWebImageDecoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageDecoder.m
+END
+SDWebImageManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageManager.h
+END
+UIButton+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIButton+WebCache.h
+END
+SDWebImageManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageManager.m
+END
+SDWebImageDownloaderOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageDownloaderOperation.h
+END
+UIImageView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImageView+WebCache.h
+END
+UIImage+WebP.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImage+WebP.h
+END
+UIButton+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIButton+WebCache.m
+END
+SDWebImageDownloaderOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageDownloaderOperation.m
+END
+UIImageView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImageView+WebCache.m
+END
+UIImage+WebP.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImage+WebP.m
+END
+NSData+ImageContentType.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/NSData+ImageContentType.h
+END
+SDWebImageDownloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageDownloader.h
+END
+UIView+WebCacheOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIView+WebCacheOperation.h
+END
+NSData+ImageContentType.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/NSData+ImageContentType.m
+END
+SDWebImageDownloader.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageDownloader.m
+END
+UIView+WebCacheOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIView+WebCacheOperation.m
+END
+UIImageView+HighlightedWebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImageView+HighlightedWebCache.h
+END
+SDWebImageCompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageCompat.h
+END
+UIImageView+HighlightedWebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImageView+HighlightedWebCache.m
+END
+UIImage+MultiFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImage+MultiFormat.h
+END
+SDWebImagePrefetcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImagePrefetcher.h
+END
+SDWebImageCompat.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageCompat.m
+END
+UIImage+GIF.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImage+GIF.h
+END
+UIImage+MultiFormat.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImage+MultiFormat.m
+END
+SDWebImagePrefetcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImagePrefetcher.m
+END
+UIImage+GIF.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/UIImage+GIF.m
+END
+SDWebImageOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Lemon/!svn/ver/2039/IOS/MovieModule/trunk/movieModule/movieModule/Classes/Other/Lib/SDWebImage/SDWebImageOperation.h
+END
