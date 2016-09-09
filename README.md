@@ -1,1 +1,1 @@
-# lemon-ios
+# Lemon Video iOS SDK 
