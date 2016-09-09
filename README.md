@@ -41,3 +41,52 @@
     `<key>NSAllowsArbitraryLoads</key><true/> </dict>`
 
 ##  接入方法
+* 初始化SDK：联系柠檬运营提供相应的APP包名申请渠道key：SecretKey ，应用key：AppKey,播放器的key:vvAppKey;
+在工程的AppDelegate.m 文件中引入头文件
+```objectivec
+  #import <VenvyVideoSDK/VenvyVideoSDK.h><br>
+  #import <LemonSDK/LemonSDK.h>
+  ```
+      配置申请的相关key:
+```objectivec
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+      //Override point for customization after application launch.
+      ……
+      [NMRegisterSDK registerSdkWithAppKey:@"应用key" secretKey:@"渠道key"];//设置AppKey 和 SecretKey
+      [VenvyVideoSDK setAppKey:@"NJgVo3B8-"];//设置vvAppKey
+
+      [NMRegisterSDK loginViewController:[LoginViewController class]];// 传入登录注册页的类名
+
+      ……
+
+      return YES;
+
+}
+```
+* SDK的使用
+  在app登录成功后调用柠檬的同步用户接口，传入用户手机号、昵称、头像路径，如果是游客，可传空值。
+  引入头文件  `#import <LemonSDK/LemonSDK.h> `
+  ```objectivec
+  ……
+
+    [NMRegisterSDK checkAndUpdateUserWithMobile:@“手机号” nickName:@“昵称” faceUrl:@“头像” success:^(BOOL checkSuccess, NSError *error) {        //手机号、昵称是必填的
+        if (checkSuccess) {
+            NSLog(@"success");
+        } else {
+            NSLog(@"error");
+        }
+    }];
+
+    ……
+  ```
+  进入柠檬影视模块主页，在柠檬影视模块入口处调用方法：
+  ```objectivec
+  ……
+
+    [NMRegisterSDK loadViewController:self];
+
+  ……
+  ```
+
+## 用到的第三方框架及版本
+AFNetworking-3.0.4以上、MJExtension-3.0.10以上、MJRefresh-3.1.0以上、SDWebImage-3.7.5以上、MBProgressHUD<br>影视模块内部有用到友盟统计进行统计相关数据，需要导入友盟SDK，当前用到的版本是v4.0.4。
