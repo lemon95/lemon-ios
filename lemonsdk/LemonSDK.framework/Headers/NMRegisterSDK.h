@@ -10,6 +10,8 @@
 
 @interface NMRegisterSDK : NSObject
 
+extern NSString *payOrderNotification;
+
 //注册sdk
 + (void)registerSdkWithAppKey:(NSString *)appKey secretKey:(NSString *)secretKey;
 /**
@@ -33,5 +35,12 @@
  *  @param presentController present ViewController
  */
 + (void)loadViewController:(UIViewController *)presentController;
+
+//跳转到支付页面
++ (void)payViewController:(Class)payVC;
+//获取订单信息
++ (id)getOrderInfo;
+//支付成功调用
++ (void)payState:(BOOL)state;
 
 @end
