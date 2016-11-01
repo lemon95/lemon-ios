@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view from its nib.
 }
 - (IBAction)entranceVideoMoudle:(id)sender {
+    //进入柠檬影视模块
     [NMRegisterSDK loadViewController:self];
 }
 

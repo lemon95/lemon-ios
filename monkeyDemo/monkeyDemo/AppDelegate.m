@@ -10,6 +10,7 @@
 #import <VenvyVideoSDK/VenvyVideoSDK.h>
 #import <LemonSDK/LemonSDK.h>
 #import "LoginViewController.h"
+#import "PayViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,12 +22,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    //注册appkey和渠道key，向柠檬方运营获取
     [NMRegisterSDK registerSdkWithAppKey:@"lemon_yz_sdkf" secretKey:@"dd53189e094440ddafba6baa6cdf5b92"];
-    
+    //设置播放器的APPKey，必须要设置的，通过运营部想柠檬方运营获取
     [VenvyVideoSDK setAppKey:@"NJgVo3B8-"];
     
+    //设置 登录页面， 用于跳转登录
     [NMRegisterSDK loginViewController:[LoginViewController class]];
-    
+    //设置 选择支付方式页面， 用于调用支付时跳转
+    [NMRegisterSDK payViewController:[PayViewController class]];
     
     return YES;
 }

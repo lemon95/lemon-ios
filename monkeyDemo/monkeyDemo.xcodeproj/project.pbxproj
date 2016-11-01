@@ -54,8 +54,6 @@
 		D6628BE71D2CA95F00B51072 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D6628BDD1D2CA95F00B51072 /* UIRefreshControl+AFNetworking.m */; };
 		D6628BE81D2CA95F00B51072 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D6628BDF1D2CA95F00B51072 /* UIWebView+AFNetworking.m */; };
 		D6628BF51D2CA97400B51072 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D6628BEB1D2CA97400B51072 /* MBProgressHUD+MJ.m */; };
-		D6628BF61D2CA97400B51072 /* MBProgressHUD+TJCenterHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6628BED1D2CA97400B51072 /* MBProgressHUD+TJCenterHUD.m */; };
-		D6628BF71D2CA97400B51072 /* MBProgressHUD+TJHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6628BEF1D2CA97400B51072 /* MBProgressHUD+TJHUD.m */; };
 		D6628BF81D2CA97400B51072 /* MBProgressHUD+TJLocationAndTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D6628BF11D2CA97400B51072 /* MBProgressHUD+TJLocationAndTime.m */; };
 		D6628BF91D2CA97400B51072 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6628BF21D2CA97400B51072 /* MBProgressHUD.bundle */; };
 		D6628BFA1D2CA97400B51072 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6628BF41D2CA97400B51072 /* MBProgressHUD.m */; };
@@ -70,9 +68,6 @@
 		D665E1BD1D2E38DE008E960E /* LemonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D665E1BA1D2E38DE008E960E /* LemonSDK.framework */; };
 		D665E1BE1D2E38DE008E960E /* LemonSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D665E1BB1D2E38DE008E960E /* LemonSource.bundle */; };
 		D665E1BF1D2E38DE008E960E /* xibSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D665E1BC1D2E38DE008E960E /* xibSource.bundle */; };
-		D665E1C41D2E3A0D008E960E /* libMobileTracking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D665E1C11D2E3A0D008E960E /* libMobileTracking.a */; };
-		D665E1C51D2E3A0D008E960E /* libMZMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D665E1C21D2E3A0D008E960E /* libMZMonitor.a */; };
-		D665E1C61D2E3A0D008E960E /* PPTVSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D665E1C31D2E3A0D008E960E /* PPTVSdk.framework */; };
 		D665E1CA1D2E3A19008E960E /* VenvyVideoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D665E1C81D2E3A19008E960E /* VenvyVideoSDK.framework */; };
 		D665E1CB1D2E3A19008E960E /* VenvyVideoSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D665E1C91D2E3A19008E960E /* VenvyVideoSDKResources.bundle */; };
 		D67784EE1CEC766E0022A16D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67784EC1CEC766E0022A16D /* LoginViewController.m */; };
@@ -99,6 +94,7 @@
 		D69C40F01CF8414B00A34185 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C40E41CF8414B00A34185 /* NSObject+MJKeyValue.m */; };
 		D69C40F11CF8414B00A34185 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C40E61CF8414B00A34185 /* NSObject+MJProperty.m */; };
 		D69C40F21CF8414B00A34185 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C40E81CF8414B00A34185 /* NSString+MJExtension.m */; };
+		D6C73F191DC88F6000E6D96E /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C73F181DC88F6000E6D96E /* PayViewController.m */; };
 		D6F8C4881CB762680017D8A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F8C4871CB762680017D8A6 /* main.m */; };
 		D6F8C48B1CB762680017D8A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F8C48A1CB762680017D8A6 /* AppDelegate.m */; };
 		D6F8C48E1CB762680017D8A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F8C48D1CB762680017D8A6 /* ViewController.m */; };
@@ -246,10 +242,6 @@
 		D6628BDF1D2CA95F00B51072 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		D6628BEA1D2CA97400B51072 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		D6628BEB1D2CA97400B51072 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
-		D6628BEC1D2CA97400B51072 /* MBProgressHUD+TJCenterHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+TJCenterHUD.h"; sourceTree = "<group>"; };
-		D6628BED1D2CA97400B51072 /* MBProgressHUD+TJCenterHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+TJCenterHUD.m"; sourceTree = "<group>"; };
-		D6628BEE1D2CA97400B51072 /* MBProgressHUD+TJHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+TJHUD.h"; sourceTree = "<group>"; };
-		D6628BEF1D2CA97400B51072 /* MBProgressHUD+TJHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+TJHUD.m"; sourceTree = "<group>"; };
 		D6628BF01D2CA97400B51072 /* MBProgressHUD+TJLocationAndTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+TJLocationAndTime.h"; sourceTree = "<group>"; };
 		D6628BF11D2CA97400B51072 /* MBProgressHUD+TJLocationAndTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+TJLocationAndTime.m"; sourceTree = "<group>"; };
 		D6628BF21D2CA97400B51072 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -266,9 +258,6 @@
 		D665E1BA1D2E38DE008E960E /* LemonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LemonSDK.framework; sourceTree = "<group>"; };
 		D665E1BB1D2E38DE008E960E /* LemonSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LemonSource.bundle; sourceTree = "<group>"; };
 		D665E1BC1D2E38DE008E960E /* xibSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xibSource.bundle; sourceTree = "<group>"; };
-		D665E1C11D2E3A0D008E960E /* libMobileTracking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobileTracking.a; sourceTree = "<group>"; };
-		D665E1C21D2E3A0D008E960E /* libMZMonitor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMZMonitor.a; sourceTree = "<group>"; };
-		D665E1C31D2E3A0D008E960E /* PPTVSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PPTVSdk.framework; sourceTree = "<group>"; };
 		D665E1C81D2E3A19008E960E /* VenvyVideoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VenvyVideoSDK.framework; sourceTree = "<group>"; };
 		D665E1C91D2E3A19008E960E /* VenvyVideoSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VenvyVideoSDKResources.bundle; sourceTree = "<group>"; };
 		D67784EB1CEC766E0022A16D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -307,6 +296,8 @@
 		D69C40E61CF8414B00A34185 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		D69C40E71CF8414B00A34185 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		D69C40E81CF8414B00A34185 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		D6C73F171DC88F6000E6D96E /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		D6C73F181DC88F6000E6D96E /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
 		D6F8C4831CB762680017D8A6 /* monkeyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = monkeyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F8C4871CB762680017D8A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6F8C4891CB762680017D8A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -376,7 +367,6 @@
 				D68A4B791CBE25920080EDBB /* CFNetwork.framework in Frameworks */,
 				D68A4B771CBE257C0080EDBB /* CoreMotion.framework in Frameworks */,
 				D6F91FDA1CB8F74D005CF035 /* libobjc.A.tbd in Frameworks */,
-				D665E1C51D2E3A0D008E960E /* libMZMonitor.a in Frameworks */,
 				D665E1A61D2E35A8008E960E /* libavutil.a in Frameworks */,
 				D6F91FD81CB8F741005CF035 /* libiconv.tbd in Frameworks */,
 				D6F91F671CB8A819005CF035 /* libbz2.tbd in Frameworks */,
@@ -385,7 +375,6 @@
 				D6F91FD21CB8F711005CF035 /* libstdc++.6.tbd in Frameworks */,
 				D665E1A51D2E35A8008E960E /* libavformat.a in Frameworks */,
 				D6F91FD01CB8F705005CF035 /* libsqlite3.0.tbd in Frameworks */,
-				D665E1C61D2E3A0D008E960E /* PPTVSdk.framework in Frameworks */,
 				D6F91FCE1CB8F6F2005CF035 /* libxml2.tbd in Frameworks */,
 				D6F91F6D1CB8A839005CF035 /* SystemConfiguration.framework in Frameworks */,
 				D6F91F6B1CB8A82E005CF035 /* Security.framework in Frameworks */,
@@ -397,7 +386,6 @@
 				D6F91F611CB8A7F4005CF035 /* CoreMedia.framework in Frameworks */,
 				D6F91F5F1CB8A7EC005CF035 /* MediaPlayer.framework in Frameworks */,
 				D6F91F5D1CB8A7E0005CF035 /* AVFoundation.framework in Frameworks */,
-				D665E1C41D2E3A0D008E960E /* libMobileTracking.a in Frameworks */,
 				D665E1A81D2E35A8008E960E /* libswscale.a in Frameworks */,
 				D6F91F5B1CB8A7D8005CF035 /* AudioToolbox.framework in Frameworks */,
 				D665E1A41D2E35A8008E960E /* libavcodec.a in Frameworks */,
@@ -586,10 +574,6 @@
 			children = (
 				D6628BEA1D2CA97400B51072 /* MBProgressHUD+MJ.h */,
 				D6628BEB1D2CA97400B51072 /* MBProgressHUD+MJ.m */,
-				D6628BEC1D2CA97400B51072 /* MBProgressHUD+TJCenterHUD.h */,
-				D6628BED1D2CA97400B51072 /* MBProgressHUD+TJCenterHUD.m */,
-				D6628BEE1D2CA97400B51072 /* MBProgressHUD+TJHUD.h */,
-				D6628BEF1D2CA97400B51072 /* MBProgressHUD+TJHUD.m */,
 				D6628BF01D2CA97400B51072 /* MBProgressHUD+TJLocationAndTime.h */,
 				D6628BF11D2CA97400B51072 /* MBProgressHUD+TJLocationAndTime.m */,
 				D6628BF21D2CA97400B51072 /* MBProgressHUD.bundle */,
@@ -631,17 +615,6 @@
 			);
 			name = lemonsdk;
 			path = ../LemonSDK_v1.0.0/lemonsdk;
-			sourceTree = "<group>";
-		};
-		D665E1C01D2E3A0D008E960E /* pptvsdk */ = {
-			isa = PBXGroup;
-			children = (
-				D665E1C11D2E3A0D008E960E /* libMobileTracking.a */,
-				D665E1C21D2E3A0D008E960E /* libMZMonitor.a */,
-				D665E1C31D2E3A0D008E960E /* PPTVSdk.framework */,
-			);
-			name = pptvsdk;
-			path = ../LemonSDK_v1.0.0/pptvsdk;
 			sourceTree = "<group>";
 		};
 		D665E1C71D2E3A19008E960E /* VenvyVideoSDK */ = {
@@ -717,7 +690,6 @@
 				D6628C1E1D2D15DA00B51072 /* UMSDK */,
 				D665E19C1D2E35A8008E960E /* libTVEngine */,
 				D665E1B91D2E38DE008E960E /* lemonsdk */,
-				D665E1C01D2E3A0D008E960E /* pptvsdk */,
 				D665E1C71D2E3A19008E960E /* VenvyVideoSDK */,
 				D6F8C4851CB762680017D8A6 /* monkeyDemo */,
 				D6F8C49F1CB762680017D8A6 /* monkeyDemoTests */,
@@ -750,6 +722,8 @@
 				D615A3541CE2FEA0008A6085 /* EntranceViewController.h */,
 				D615A3551CE2FEA0008A6085 /* EntranceViewController.m */,
 				D615A3561CE2FEA0008A6085 /* EntranceViewController.xib */,
+				D6C73F171DC88F6000E6D96E /* PayViewController.h */,
+				D6C73F181DC88F6000E6D96E /* PayViewController.m */,
 				D6F8C4921CB762680017D8A6 /* Assets.xcassets */,
 				D6F8C4941CB762680017D8A6 /* LaunchScreen.storyboard */,
 				D6F8C4971CB762680017D8A6 /* Info.plist */,
@@ -989,7 +963,6 @@
 				D6628BE81D2CA95F00B51072 /* UIWebView+AFNetworking.m in Sources */,
 				D6F8CA651CB7A96D0017D8A6 /* AFURLRequestSerialization.m in Sources */,
 				D6628B201D2CA62000B51072 /* UIScrollView+MJRefresh.m in Sources */,
-				D6628BF61D2CA97400B51072 /* MBProgressHUD+TJCenterHUD.m in Sources */,
 				D6F8CA661CB7A96D0017D8A6 /* AFURLResponseSerialization.m in Sources */,
 				D6628B101D2CA62000B51072 /* MJRefreshBackFooter.m in Sources */,
 				D6628B131D2CA62000B51072 /* MJRefreshHeader.m in Sources */,
@@ -1000,11 +973,11 @@
 				D69C40ED1CF8414B00A34185 /* MJPropertyType.m in Sources */,
 				D6628B111D2CA62000B51072 /* MJRefreshComponent.m in Sources */,
 				D6628BC51D2CA94100B51072 /* UIImage+GIF.m in Sources */,
-				D6628BF71D2CA97400B51072 /* MBProgressHUD+TJHUD.m in Sources */,
 				D69C40F11CF8414B00A34185 /* NSObject+MJProperty.m in Sources */,
 				D6628B171D2CA62000B51072 /* MJRefreshBackGifFooter.m in Sources */,
 				D6628BE71D2CA95F00B51072 /* UIRefreshControl+AFNetworking.m in Sources */,
 				D6628B1F1D2CA62000B51072 /* UIScrollView+MJExtension.m in Sources */,
+				D6C73F191DC88F6000E6D96E /* PayViewController.m in Sources */,
 				D6628BBB1D2CA94100B51072 /* MKAnnotationView+WebCache.m in Sources */,
 				D6628BE01D2CA95F00B51072 /* AFAutoPurgingImageCache.m in Sources */,
 				D69C40EF1CF8414B00A34185 /* NSObject+MJCoding.m in Sources */,

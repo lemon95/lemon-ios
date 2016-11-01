@@ -40,7 +40,9 @@
     
 //    [NMRegisterSDK loadViewController:self];
     NSLog(@"%@--%@",self.phoneView.text, self.nickNameView.text);
-    [NMRegisterSDK checkAndUpdateUserWithMobile:self.phoneView.text nickName:self.nickNameView.text faceUrl:@"" success:^(BOOL checkSuccess, NSError *error) {
+    NSString *headUrl = @"http://tupian.lemon95.com:8088/Pictures/LemonUsers/2016-09-13/1473754962836.jpg";
+    //登录成功时调用，用于同步用户
+    [NMRegisterSDK checkAndUpdateUserWithMobile:self.phoneView.text nickName:self.nickNameView.text faceUrl:headUrl success:^(BOOL checkSuccess, NSError *error) {
         if (checkSuccess) {
             NSLog(@"success");
         } else {
