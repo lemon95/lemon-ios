@@ -1135,7 +1135,6 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/UMSDK",
 					"\"$(SRCROOT)/../LemonSDK_v1.0.0/lemonsdk\"",
-					"\"$(SRCROOT)/../LemonSDK_v1.0.0/pptvsdk\"",
 					"\"$(SRCROOT)/../LemonSDK_v1.0.0/VenvyVideoSDK\"",
 				);
 				HEADER_SEARCH_PATHS = "";
@@ -1145,7 +1144,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../LemonSDK_v1.0.0/libTVEngine\"",
-					"\"$(SRCROOT)/../LemonSDK_v1.0.0/pptvsdk\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.payfortest;
@@ -1166,7 +1164,6 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/UMSDK",
 					"\"$(SRCROOT)/../LemonSDK_v1.0.0/lemonsdk\"",
-					"\"$(SRCROOT)/../LemonSDK_v1.0.0/pptvsdk\"",
 					"\"$(SRCROOT)/../LemonSDK_v1.0.0/VenvyVideoSDK\"",
 				);
 				HEADER_SEARCH_PATHS = "";
@@ -1176,7 +1173,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../LemonSDK_v1.0.0/libTVEngine\"",
-					"\"$(SRCROOT)/../LemonSDK_v1.0.0/pptvsdk\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.payfortest;
