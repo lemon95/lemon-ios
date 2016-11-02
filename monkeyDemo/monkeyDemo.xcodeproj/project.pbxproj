@@ -70,6 +70,11 @@
 		D665E1BF1D2E38DE008E960E /* xibSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D665E1BC1D2E38DE008E960E /* xibSource.bundle */; };
 		D665E1CA1D2E3A19008E960E /* VenvyVideoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D665E1C81D2E3A19008E960E /* VenvyVideoSDK.framework */; };
 		D665E1CB1D2E3A19008E960E /* VenvyVideoSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D665E1C91D2E3A19008E960E /* VenvyVideoSDKResources.bundle */; };
+		D669347A1DC97A0400561C16 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D66934701DC97A0400561C16 /* FMDatabase.m */; };
+		D669347B1DC97A0400561C16 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D66934721DC97A0400561C16 /* FMDatabaseAdditions.m */; };
+		D669347C1DC97A0400561C16 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D66934741DC97A0400561C16 /* FMDatabasePool.m */; };
+		D669347D1DC97A0400561C16 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D66934761DC97A0400561C16 /* FMDatabaseQueue.m */; };
+		D669347E1DC97A0400561C16 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D66934791DC97A0400561C16 /* FMResultSet.m */; };
 		D67784EE1CEC766E0022A16D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67784EC1CEC766E0022A16D /* LoginViewController.m */; };
 		D67784EF1CEC766E0022A16D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67784ED1CEC766E0022A16D /* LoginViewController.xib */; };
 		D68A4B771CBE257C0080EDBB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68A4B761CBE257C0080EDBB /* CoreMotion.framework */; };
@@ -260,6 +265,17 @@
 		D665E1BC1D2E38DE008E960E /* xibSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xibSource.bundle; sourceTree = "<group>"; };
 		D665E1C81D2E3A19008E960E /* VenvyVideoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VenvyVideoSDK.framework; sourceTree = "<group>"; };
 		D665E1C91D2E3A19008E960E /* VenvyVideoSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VenvyVideoSDKResources.bundle; sourceTree = "<group>"; };
+		D669346F1DC97A0400561C16 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D66934701DC97A0400561C16 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D66934711DC97A0400561C16 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D66934721DC97A0400561C16 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D66934731DC97A0400561C16 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D66934741DC97A0400561C16 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D66934751DC97A0400561C16 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D66934761DC97A0400561C16 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D66934771DC97A0400561C16 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D66934781DC97A0400561C16 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D66934791DC97A0400561C16 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		D67784EB1CEC766E0022A16D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		D67784EC1CEC766E0022A16D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D67784ED1CEC766E0022A16D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -627,6 +643,24 @@
 			path = ../LemonSDK_v1.0.0/VenvyVideoSDK;
 			sourceTree = "<group>";
 		};
+		D669346E1DC97A0400561C16 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				D669346F1DC97A0400561C16 /* FMDatabase.h */,
+				D66934701DC97A0400561C16 /* FMDatabase.m */,
+				D66934711DC97A0400561C16 /* FMDatabaseAdditions.h */,
+				D66934721DC97A0400561C16 /* FMDatabaseAdditions.m */,
+				D66934731DC97A0400561C16 /* FMDatabasePool.h */,
+				D66934741DC97A0400561C16 /* FMDatabasePool.m */,
+				D66934751DC97A0400561C16 /* FMDatabaseQueue.h */,
+				D66934761DC97A0400561C16 /* FMDatabaseQueue.m */,
+				D66934771DC97A0400561C16 /* FMDB.h */,
+				D66934781DC97A0400561C16 /* FMResultSet.h */,
+				D66934791DC97A0400561C16 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		D69C40D31CF8414B00A34185 /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -733,6 +767,7 @@
 				D6628BCB1D2CA95F00B51072 /* UIKit+AFNetworking */,
 				D6628AE21D2CA62000B51072 /* MJRefresh */,
 				D69C40D31CF8414B00A34185 /* MJExtension */,
+				D669346E1DC97A0400561C16 /* fmdb */,
 				D6F8C4861CB762680017D8A6 /* Supporting Files */,
 			);
 			path = monkeyDemo;
@@ -939,8 +974,10 @@
 				D6628B0F1D2CA62000B51072 /* MJRefreshAutoFooter.m in Sources */,
 				D6F8CA631CB7A96D0017D8A6 /* AFNetworkReachabilityManager.m in Sources */,
 				D6628BBE1D2CA94100B51072 /* SDWebImageCompat.m in Sources */,
+				D669347D1DC97A0400561C16 /* FMDatabaseQueue.m in Sources */,
 				D6628BC21D2CA94100B51072 /* SDWebImageManager.m in Sources */,
 				D6628B1A1D2CA62000B51072 /* MJRefreshGifHeader.m in Sources */,
+				D669347B1DC97A0400561C16 /* FMDatabaseAdditions.m in Sources */,
 				D6628BBD1D2CA94100B51072 /* SDImageCache.m in Sources */,
 				D6628B161D2CA62000B51072 /* MJRefreshAutoStateFooter.m in Sources */,
 				D6628BBF1D2CA94100B51072 /* SDWebImageDecoder.m in Sources */,
@@ -963,6 +1000,7 @@
 				D6628BE81D2CA95F00B51072 /* UIWebView+AFNetworking.m in Sources */,
 				D6F8CA651CB7A96D0017D8A6 /* AFURLRequestSerialization.m in Sources */,
 				D6628B201D2CA62000B51072 /* UIScrollView+MJRefresh.m in Sources */,
+				D669347C1DC97A0400561C16 /* FMDatabasePool.m in Sources */,
 				D6F8CA661CB7A96D0017D8A6 /* AFURLResponseSerialization.m in Sources */,
 				D6628B101D2CA62000B51072 /* MJRefreshBackFooter.m in Sources */,
 				D6628B131D2CA62000B51072 /* MJRefreshHeader.m in Sources */,
@@ -970,12 +1008,14 @@
 				D6628BE61D2CA95F00B51072 /* UIProgressView+AFNetworking.m in Sources */,
 				D6628BC31D2CA94100B51072 /* SDWebImagePrefetcher.m in Sources */,
 				D6628B151D2CA62000B51072 /* MJRefreshAutoNormalFooter.m in Sources */,
+				D669347E1DC97A0400561C16 /* FMResultSet.m in Sources */,
 				D69C40ED1CF8414B00A34185 /* MJPropertyType.m in Sources */,
 				D6628B111D2CA62000B51072 /* MJRefreshComponent.m in Sources */,
 				D6628BC51D2CA94100B51072 /* UIImage+GIF.m in Sources */,
 				D69C40F11CF8414B00A34185 /* NSObject+MJProperty.m in Sources */,
 				D6628B171D2CA62000B51072 /* MJRefreshBackGifFooter.m in Sources */,
 				D6628BE71D2CA95F00B51072 /* UIRefreshControl+AFNetworking.m in Sources */,
+				D669347A1DC97A0400561C16 /* FMDatabase.m in Sources */,
 				D6628B1F1D2CA62000B51072 /* UIScrollView+MJExtension.m in Sources */,
 				D6C73F191DC88F6000E6D96E /* PayViewController.m in Sources */,
 				D6628BBB1D2CA94100B51072 /* MKAnnotationView+WebCache.m in Sources */,
