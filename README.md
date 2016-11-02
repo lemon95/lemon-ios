@@ -52,10 +52,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
       //Override point for customization after application launch.
       ……
-      [NMRegisterSDK registerSdkWithAppKey:@"应用key" secretKey:@"渠道key"];//设置AppKey 和 SecretKey
+      
+      //注册appkey和渠道key，向柠檬方运营获取
+      [NMRegisterSDK registerSdkWithAppKey:@"应用key" secretKey:@"渠道key"];
+      //设置播放器的APPKey，必须要设置的，通过运营部想柠檬方运营获取
       [VenvyVideoSDK setAppKey:@"NJgVo3B8-"];//设置vvAppKey
-
-      [NMRegisterSDK loginViewController:[LoginViewController class]];// 传入登录注册页的类名
+    
+      //设置 登录页面， 用于跳转登录
+      [NMRegisterSDK loginViewController:[LoginViewController class]];
+      //设置 选择支付方式页面， 用于调用支付时跳转
+      [NMRegisterSDK payViewController:[PayViewController class]];
 
       ……
 
